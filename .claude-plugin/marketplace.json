@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "codebase-x-ray",
+  "version": "1.0.0",
+  "description": "Analyze famous open-source codebases and generate technical biography books",
+  "owner": {
+    "name": "Danny"
+  },
+  "plugins": [
+    {
+      "name": "codebase-x-ray",
+      "description": "Analyze famous open-source codebases and generate technical biography books that teach software engineering through real code",
+      "version": "1.1.0",
+      "source": ".",
+      "category": "productivity"
+    }
+  ]
+}
